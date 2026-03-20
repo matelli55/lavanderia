@@ -1,0 +1,124 @@
+*{
+    margin: 0; /* remove margem padrão de todos os elementos */
+    padding: 0; /* remove espaçamento interno padrão */
+    box-sizing: border-box; /* faz largura e altura incluírem padding e borda */
+}
+
+main{
+    width: 100%; /* largura total da tela */
+    height: 100dvh; /* altura da tela inteira do dispositivo */
+    background: #860dcb; /* cor de fundo roxa escura */
+}
+
+section{
+    width: 100%; /* ocupa toda largura */
+    height: 40%; /* ocupa 40% da altura do container */
+    background: #a60aff; /* fundo roxo */
+    /* background-image: url('../img/notebook.jpg'); */ /* imagem de fundo (comentada) */
+    border-radius: 0 0 110px 0px; /* arredonda canto inferior direito */
+    position: relative; /* permite posicionar elementos absolutos dentro */
+}
+
+img{
+    width: 160px; /* largura da imagem */
+    position: absolute; /* posicionamento livre dentro da section */
+    right: 3%; /* distância da direita */
+    bottom: 15%; /* distância da parte inferior */
+}
+
+h1{
+    width: 90%; /* largura total */
+    float: left; /* posiciona elemento à esquerda */
+    padding-left: 9%; /* espaço interno à esquerda */
+    padding-right: 30%; /* espaço interno à direita */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte do texto */
+    margin-top: 12%; /* distância do topo */
+    color: #fff; /* cor branca do texto */
+    text-shadow: 2px 2px 4px #000; /* sombra preta no texto */
+    font-size: 1.5rem; /* tamanho da fonte */
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center; /* centraliza o texto */
+    margin-top: 30px; /* distância do topo */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
+    font-weight: bold; /* deixa texto em negrito */
+    color: #fff; /* cor branca */
+    text-shadow: 2px 2px 4px #000; /* sombra no texto */
+}
+
+div{
+    width: 100px; /* largura do card */
+    height: 100px; /* altura do card */
+    background: #ffffff; /* fundo branco */
+    float: left; /* posiciona elementos lado a lado */
+    margin-left: 20px; /* espaço à esquerda */
+    margin-right: 20px; /* espaço à direita */
+    margin-top: 20px; /* espaço acima */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
+    text-align: center; /* centraliza texto */
+    font-weight: bold; /* texto em negrito */
+    font-size: 1rem; /* tamanho da fonte */
+    border-radius: 20px; /* bordas arredondadas */
+    padding-top: 15px; /* espaço interno no topo */
+    box-shadow: 5px 5px 5px #00000069;
+}
+
+/* botao de acompanhamento */
+#acompanhe{
+    height: 5vh; /* altura baseada na tela */
+    margin-left: 40px; /* espaço da esquerda */
+    width: 40%; /* largura de 40% do container */
+    margin-top: 8%; /* espaço acima */
+    background: #04a6e6; /* cor azul */
+    font-weight: bold; /* texto em negrito */
+    font-size: 1rem; /* tamanho do texto */
+    /* text-transform: uppercase; transforma texto em maiúsculo */
+    border-radius: 10px; /* bordas arredondadas */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
+    color: #fff; /* cor do texto branca */
+    border: none;
+    padding-left: 1% ;
+    padding-right: 1%;
+    box-shadow: 5px 5px 5px #00000069;
+    border: none;
+}
+
+/* barra superior */
+header{
+    height: 70px; /* altura da barra */
+    width: 100%; /* largura total */
+    background: #a60aff; /* fundo branco */
+    display: flex; /* ativa layout flexbox */
+    justify-content: space-between; /* coloca elementos nas extremidades */
+    align-items: center; /* alinha verticalmente no centro */
+    padding: 0 20px; /* espaço interno esquerda e direita */
+}
+
+/* botao de cima */
+#contato{
+    height: 40px; /* altura do botão */
+    width: 110px; /* largura do botão */
+    border-radius: 10px; /* bordas arredondadas */
+    color: #fff; /* cor do texto branca */
+    background: #479fdf; /* fundo azul */
+    border: none; /* remove borda padrão */
+}
+
+header h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
+    font-weight: bold; /* negrito */
+    color: #fff; /* cor branca */
+    text-shadow: 2px 2px 4px #000; /* sombra no texto */
+}
+.fth2{
+    text-align: center; /* centraliza o texto */
+    margin-top: 135px; /* distância do topo */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* fonte */
+    font-weight: bold; /* deixa texto em negrito */
+    color: #fff; /* cor branca */
+    text-shadow: 2px 2px 4px #000; /* sombra no texto */
+    font-size: 1.5rem;
+
+}
